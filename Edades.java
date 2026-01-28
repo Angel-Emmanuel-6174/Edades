@@ -72,6 +72,7 @@ public class Edades{
             System.out.println("TOTAL DE ADULTOS JOVENES: "+young+"        HOMBRES: "+youngH+"           MUJERES: "+youngM);
             System.out.println("TOTAL DE ADULTOS: "+adult+"                HOMBRES: "+adultH+"           MUJERES: "+adultM);
             System.out.println("TOTAL DE ADULTOS MAYORES: "+old+"        HOMBRES: "+oldH+"           MUJERES: "+oldM);
+            System.out.println("          TOTAL DE HOMBRES: "+totalH+"                  TOTAL DE MUJERES: "+totalM);
         
 
 
