@@ -63,14 +63,15 @@ public class Edades{
                 totalH = totalH + oldH;
                 totalM = totalM + oldM;
             }
+            System.out.println("SALIR? 's'");
+            salir = sc.next().charAt(0);
+        }
+
             System.out.println("TOTAL DE NIÑOS: "+kids+"                  HOMBRES: "+kidsH+"           MUJERES: "+kidsM);
             System.out.println("TOTAL DE ADOLESCENTES: "+ado+"           HOMBRES: "+adoH+"           MUJERES: "+adoM);
             System.out.println("TOTAL DE ADULTOS JOVENES: "+young+"        HOMBRES: "+youngH+"           MUJERES: "+youngM);
             System.out.println("TOTAL DE ADULTOS: "+adult+"                HOMBRES: "+adultH+"           MUJERES: "+adultM);
             System.out.println("TOTAL DE ADULTOS MAYORES: "+old+"        HOMBRES: "+oldH+"           MUJERES: "+oldM);
-
-
-        }
         
 
 
